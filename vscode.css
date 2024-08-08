@@ -1,0 +1,152 @@
+body {
+  background-color: #141313;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  /* font-size: 15px;
+  font-weight: 400; */
+  color: #e9eaeb;
+}
+nav {
+  color: #e9eaeb;
+  display: flex;
+  justify-content: space-between;
+  /* border: 5px solid black; */
+  width: auto;
+  height: 40px;
+  margin: 0px 0px;
+  padding: 0px 50px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+#span01 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#vscode {
+  font-size: 20px;
+}
+.nav-link {
+  text-decoration: none;
+  color: #9ba3b4;
+}
+.nav-link:hover {
+  color: #e9eaeb;
+  font-size: 16px;
+}
+#span1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+#span2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#download-btn {
+  background-color: #0078d4;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 550;
+  border-radius: 4px;
+  border: none;
+  border-radius: 5px;
+  height: unset;
+  padding: 7px 7px 7px 7px;
+}
+#download-btn:hover {
+  cursor: pointer;
+  background-color: #035390;
+}
+#input {
+  width: 150px;
+  box-shadow: none;
+  background: #00000000;
+  border: 1px solid #ffffff26;
+  padding: 7px 12px 7px 16px;
+  height: unset;
+  border-radius: 4px;
+  color: #9ba3b4;
+}
+input::placeholder {
+  color: #a6adbd;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  color: #9ba3b4;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  line-height: 150%;
+  font-weight: 400;
+  margin-bottom: 60px;
+}
+#link {
+  color: #4daafc;
+  text-decoration: underline;
+  font-weight: 500;
+  font-size: 13px;
+}
+#link:hover {
+  cursor: pointer;
+  color: #4daafc;
+}
+article {
+  display: flex;
+  /* justify-content: space-evenly; */
+  align-items: center;
+  margin: 0 20px;
+}
+#text-btn {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 8px 12px;
+  border-radius: 32px;
+  background-color: #ffffff0a;
+  border: 1px solid #ffffff12;
+  color: #9ba3b4;
+  width: max-content;
+  margin-bottom: 8px;
+}
+#cer {
+  color: #e9eaeb;
+  font-weight: 600;
+  font-size: 50px;
+  margin-bottom: 10px;
+  line-height: 2rem;
+  letter-spacing: -0.4px;
+}
+#download-windiws-btn {
+  background-color: #0078d4;
+  color: #ffffff;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  padding: 12px 12px;
+  border: none;
+  border-radius: 5px;
+  height: unset;
+  margin-bottom: 13px;
+  margin-top: 2rem;
+}
+#last-p {
+  font-weight: 300;
+  font-size: 10px;
+}
+
+#div1 {
+  padding: 32px 60px;
+}
+#div2 {
+  padding: 0 40px;
+}
